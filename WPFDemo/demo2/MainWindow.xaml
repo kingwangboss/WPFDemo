@@ -10,8 +10,13 @@
         
     </Window.Resources>
     <Grid>
-        <Button Content="button1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,120,0,0" Width="100" Height="50"
-                Style="{StaticResource BtnStyle1}"/>
+        <Button Content="button1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,120,0,0" Width="100" Height="50">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Blue"></Setter>
+                </Style>
+            </Button.Style>
+        </Button>
         <Button Content="button2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,120,0,0" Width="100" Height="50"
                 Style="{StaticResource BtnStyle2}"/>
     </Grid>
