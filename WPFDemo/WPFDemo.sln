@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyPropertyInWPF", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{892131A4-594B-432D-808E-F8AA8CE25E5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slider", "Slider\Slider.csproj", "{6D9BDFAB-893B-4288-8F41-20CD900DDFD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{892131A4-594B-432D-808E-F8AA8CE25E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892131A4-594B-432D-808E-F8AA8CE25E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{892131A4-594B-432D-808E-F8AA8CE25E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9BDFAB-893B-4288-8F41-20CD900DDFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9BDFAB-893B-4288-8F41-20CD900DDFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9BDFAB-893B-4288-8F41-20CD900DDFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9BDFAB-893B-4288-8F41-20CD900DDFD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
