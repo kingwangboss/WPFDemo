@@ -25,7 +25,17 @@ namespace DependencyPropertyInWPF
             InitializeComponent();
         }
 
-        public int MyVer { get; set; }
-    
+        pror
+
+        public int MyProperty //CLR属性
+        {
+            get { return (int)GetValue(CustomDependencyProperty); }
+            set { SetValue(CustomDependencyProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MyProperty.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty CustomDependencyProperty =
+            DependencyProperty.Register("MyProperty", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
+
     }
 }
