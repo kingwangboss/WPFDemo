@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Layouts
+namespace ControlTemplates
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
@@ -23,14 +23,11 @@ namespace Layouts
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-            Person person = new Person()
-            {
-                FirstName = "John",
-                LastName = "Smith",
-                Age = 30
-            };
-            this.DataContext = person;
+        public void Btn_Click(object send,RoutedEventArgs args)
+        {
+            MessageBox.Show("111");
         }
     }
 }
