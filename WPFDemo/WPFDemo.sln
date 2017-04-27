@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slider", "Slider\Slider.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTemplates", "ControlTemplates\ControlTemplates.csproj", "{6D7C679C-E3F7-4513-87EF-45217DCFCEC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "DataTemplate\DataTemplate.csproj", "{DD870A92-6203-4194-B349-D749D293A01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvent", "RoutedEvent\RoutedEvent.csproj", "{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{6D7C679C-E3F7-4513-87EF-45217DCFCEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D7C679C-E3F7-4513-87EF-45217DCFCEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D7C679C-E3F7-4513-87EF-45217DCFCEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD870A92-6203-4194-B349-D749D293A01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD870A92-6203-4194-B349-D749D293A01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD870A92-6203-4194-B349-D749D293A01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD870A92-6203-4194-B349-D749D293A01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

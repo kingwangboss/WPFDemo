@@ -1,0 +1,27 @@
+﻿<Window x:Class="RoutedEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoutedEvent"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Name="ButtonClick" Height="75" Margin="42,122,41,122" Click="ButtonClick_Click">
+            <StackPanel Orientation="Horizontal">
+                <Label Height="50" FontSize="20" Content="label Display!">
+                    
+                </Label>
+                <Canvas Height="50" Width="100">
+                    <Ellipse Name="OuterEllipse" Fill="Green" Height="50" Width="90" Cursor="Hand" MouseDown="OuterEllipse_MouseDown"></Ellipse>
+                    <Button Content="Inner Button" Name="InnerButton" Height="25" Width="78" Cursor="Hand" Canvas.Left="-223" Canvas.Top="13" Click="InnerButton_Click"></Button>
+                    <Ellipse Name="InnerEllipse" Fill="Yellow" Height="51" Width="82" Canvas.Left="110" RenderTransformOrigin="2.765,0.744"></Ellipse>
+                </Canvas>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
