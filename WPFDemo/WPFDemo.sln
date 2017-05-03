@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "DataTemplat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvent", "RoutedEvent\RoutedEvent.csproj", "{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedInterface", "INotifyPropertyChangedInterface\INotifyPropertyChangedInterface.csproj", "{563163E8-2629-4157-9C15-DBDF5BDBA1D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410B6C9E-6FFD-4A91-856C-5BA6BB2AA892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
