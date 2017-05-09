@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutedEvent", "RoutedEvent\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedInterface", "INotifyPropertyChangedInterface\INotifyPropertyChangedInterface.csproj", "{563163E8-2629-4157-9C15-DBDF5BDBA1D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "visible", "visible\visible.csproj", "{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563163E8-2629-4157-9C15-DBDF5BDBA1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
