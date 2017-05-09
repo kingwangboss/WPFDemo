@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedInter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "visible", "visible\visible.csproj", "{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "btn", "btn\btn.csproj", "{9E2F6E70-A27E-4B12-B691-1BB01A35CA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7486B339-DCC6-4DEB-BBCD-C47BEB76E04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2F6E70-A27E-4B12-B691-1BB01A35CA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2F6E70-A27E-4B12-B691-1BB01A35CA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2F6E70-A27E-4B12-B691-1BB01A35CA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2F6E70-A27E-4B12-B691-1BB01A35CA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
