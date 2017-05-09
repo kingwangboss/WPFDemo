@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBar", "ToolBar\ToolBar.csproj", "{8500CEB7-018F-4BD0-B12D-4E3B99500838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows", "Windows\Windows.csproj", "{C2FB24AF-CDDC-4871-AEDC-8220E5743F3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{8500CEB7-018F-4BD0-B12D-4E3B99500838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8500CEB7-018F-4BD0-B12D-4E3B99500838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8500CEB7-018F-4BD0-B12D-4E3B99500838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FB24AF-CDDC-4871-AEDC-8220E5743F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FB24AF-CDDC-4871-AEDC-8220E5743F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FB24AF-CDDC-4871-AEDC-8220E5743F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FB24AF-CDDC-4871-AEDC-8220E5743F3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
