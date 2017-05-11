@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="打开文件" HorizontalAlignment="Left" Margin="163,139,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <Button x:Name="button1" Content="保存文件" HorizontalAlignment="Left" Margin="289,139,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button" Content="打开文件" HorizontalAlignment="Left" Margin="51,22,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="保存文件" HorizontalAlignment="Left" Margin="155,22,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button2" Content="选择图片" HorizontalAlignment="Left" Margin="280,22,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="198" Margin="60,98,0,0" VerticalAlignment="Top" Width="270"/>
 
     </Grid>
 </Window>

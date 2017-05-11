@@ -50,5 +50,16 @@ namespace OpenFileDialog
                 MessageBox.Show(sfd.FileName);
             }
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Win32.OpenFileDialog ofd = new Microsoft.Win32.OpenFileDialog();
+            ofd.Filter = "JPEG图片|*.jpg|PNG图片|*.png";
+            if (ofd.ShowDialog() == true)
+            {
+                string picFileName = ofd.FileName;
+                image.Source = new BitmapImage(new Uri(picFileName));
+            }
+        }
     }
 }
