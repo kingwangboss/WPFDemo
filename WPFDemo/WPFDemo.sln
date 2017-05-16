@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreWindows", "MoreWindows\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFileDialog", "OpenFileDialog\OpenFileDialog.csproj", "{4B2EC4BA-2EE1-4DF7-AF40-28769BC9AA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{F6E6710E-F5FE-4E2C-A714-8DCCCFF90253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGird", "DataGird\DataGird.csproj", "{3773FFB6-489E-444E-B748-214F91EEC3E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{4B2EC4BA-2EE1-4DF7-AF40-28769BC9AA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2EC4BA-2EE1-4DF7-AF40-28769BC9AA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2EC4BA-2EE1-4DF7-AF40-28769BC9AA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E6710E-F5FE-4E2C-A714-8DCCCFF90253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E6710E-F5FE-4E2C-A714-8DCCCFF90253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E6710E-F5FE-4E2C-A714-8DCCCFF90253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E6710E-F5FE-4E2C-A714-8DCCCFF90253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3773FFB6-489E-444E-B748-214F91EEC3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3773FFB6-489E-444E-B748-214F91EEC3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3773FFB6-489E-444E-B748-214F91EEC3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3773FFB6-489E-444E-B748-214F91EEC3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

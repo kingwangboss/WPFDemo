@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:INotifyPropertyChangedInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
     <Canvas>
         <Label Content="First Name" Canvas.Left="103" Canvas.Top="68"></Label>
         <TextBox Text="{Binding Path=FirstName,Mode=TwoWay}" Width="250" Height="20" Canvas.Left="209" Canvas.Top="68"></TextBox>
@@ -13,5 +13,8 @@
         <TextBox Text="{Binding Path=LastName,Mode=TwoWay}" Width="250" Height="20" Canvas.Left="209" Canvas.Top="113"></TextBox>
         <Label Content="Full Name" Canvas.Left="103" Canvas.Top="152"></Label>
         <TextBox Text="{Binding Path=FullName,Mode=TwoWay}" Width="250" Height="20" Canvas.Left="209" Canvas.Top="152"></TextBox>
+        <TextBox x:Name="textBox" Height="23" Canvas.Left="100" TextWrapping="Wrap" Text="{Binding Age}" Canvas.Top="214" Width="120"/>
+        <Button x:Name="button" Content="Age++" Canvas.Left="249" Canvas.Top="216" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="显示Age" Canvas.Left="352" Canvas.Top="216" Width="75" Click="button1_Click"/>
     </Canvas>
 </Window>
