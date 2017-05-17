@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace ADO.Net
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string sqlStr = "Data Source = .;Initial Catalog = demo_test;User Id = sa;Password = kingwangboss;";
+        string sqlStr = ConfigurationManager.ConnectionStrings["dbConnStr"].ConnectionString;
         public MainWindow()
         {
             InitializeComponent();
@@ -30,15 +31,7 @@ namespace ADO.Net
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            using (SqlConnection connection = new SqlConnection(sqlStr))
-            {
-                connection.Open();
-                using (SqlCommand cmd = connection.CreateCommand())
-                {
-                    cmd.CommandText = "insert into Student(Stu_name,Stu_desc) values('vxcvxcv','rteye');";
-                    cmd.ExecuteNonQuery();
-                }
-            }
+            SqlHelper.ExecuteNonQuery("insert into Student(Stu_name,Stu_desc) values('vxcvxcv','rteye');");
             MessageBox.Show("执行完成");
         }
 
@@ -87,6 +80,7 @@ namespace ADO.Net
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
+            
             using (SqlConnection connection = new SqlConnection(sqlStr))
             {
                 connection.Open();
