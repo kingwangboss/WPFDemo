@@ -8,6 +8,10 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="button" Content="连接数据库" HorizontalAlignment="Left" Margin="54,42,0,0" VerticalAlignment="Top" Width="110" Height="39" Click="button_Click"/>
+        <Button x:Name="button1" Content="查询" HorizontalAlignment="Left" Margin="228,42,0,0" VerticalAlignment="Top" Width="85" Height="39" RenderTransformOrigin="0.142,-0.128" Click="button1_Click"/>
+        <Button x:Name="button2" Content="查询文本框名字的信息:" HorizontalAlignment="Left" Margin="69,143,0,0" VerticalAlignment="Top" Width="163" Height="24" Click="button2_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="279,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="button3" Content="DataSet查询" HorizontalAlignment="Left" Margin="84,199,0,0" VerticalAlignment="Top" Width="128" Height="35" RenderTransformOrigin="0.166,0.245" Click="button3_Click"/>
 
     </Grid>
 </Window>
