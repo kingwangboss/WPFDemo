@@ -39,7 +39,7 @@ namespace ADO.Net
             }
         }
 
-        public static DataSet ExecuteDataSet(string sql)
+        public static DataTable ExecuteDataTable(string sql)
         {
             using (SqlConnection connection = new SqlConnection(connStr))
             {
@@ -50,7 +50,7 @@ namespace ADO.Net
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataSet dataSet = new DataSet();
                     adapter.Fill(dataSet);
-                    return dataSet;
+                    return dataSet.Tables[0];
                 }
             }
         }
