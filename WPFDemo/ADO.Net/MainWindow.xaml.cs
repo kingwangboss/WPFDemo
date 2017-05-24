@@ -107,5 +107,15 @@ namespace ADO.Net
                 }
             }
         }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(StudentDAL.getCount().ToString());
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(StudentDAL.DeleteById(1015).ToString());
+        }
     }
 }

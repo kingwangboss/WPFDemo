@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ADO.Net
+namespace ADOsanceng
 {
     class SqlHelper
     {
@@ -101,6 +97,30 @@ namespace ADO.Net
                     adapter.Fill(dataSet);
                     return dataSet.Tables[0];
                 }
+            }
+        }
+
+        public static object FromDbValue(object value)
+        {
+            if (value == DBNull.Value)
+            {
+                return null;
+            }
+            else
+            {
+                return value;
+            }
+        }
+
+        public static object ToDbValue(object value)
+        {
+            if (value == null)
+            {
+                return DBNull.Value;
+            }
+            else
+            {
+                return value;
             }
         }
     }

@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGird", "DataGird\DataGi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.Net", "ADO.Net\ADO.Net.csproj", "{F1001E59-5D0F-477F-A2D7-93F4D1EE9E4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOsanceng", "ADOsanceng\ADOsanceng.csproj", "{FDF0FDEB-C5E7-47B2-9092-1B8231FF94B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{F1001E59-5D0F-477F-A2D7-93F4D1EE9E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1001E59-5D0F-477F-A2D7-93F4D1EE9E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1001E59-5D0F-477F-A2D7-93F4D1EE9E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF0FDEB-C5E7-47B2-9092-1B8231FF94B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF0FDEB-C5E7-47B2-9092-1B8231FF94B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF0FDEB-C5E7-47B2-9092-1B8231FF94B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF0FDEB-C5E7-47B2-9092-1B8231FF94B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

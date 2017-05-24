@@ -12,6 +12,8 @@
         <Button x:Name="button2" Content="查询文本框名字的信息:" HorizontalAlignment="Left" Margin="69,143,0,0" VerticalAlignment="Top" Width="163" Height="24" Click="button2_Click"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="279,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="133"/>
         <Button x:Name="button3" Content="DataSet查询" HorizontalAlignment="Left" Margin="84,199,0,0" VerticalAlignment="Top" Width="128" Height="35" RenderTransformOrigin="0.166,0.245" Click="button3_Click"/>
+        <Button x:Name="button4" Content="查询数据条数" HorizontalAlignment="Left" Margin="397,52,0,0" VerticalAlignment="Top" Width="75" Click="button4_Click"/>
+        <Button x:Name="button5" Content="删除数据" HorizontalAlignment="Left" Margin="397,89,0,0" VerticalAlignment="Top" Width="75" Click="button5_Click"/>
 
     </Grid>
 </Window>
