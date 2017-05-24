@@ -1,0 +1,25 @@
+﻿<Window x:Class="ADOsanceng.CustomerEditUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADOsanceng"
+        mc:Ignorable="d"
+        Title="CustomerEditUI" Height="300" Width="600"
+        Loaded="Window_Loaded">
+    <Grid Name="Grid">
+        <TextBlock x:Name="textName1" HorizontalAlignment="Left" Margin="40,24,0,0" TextWrapping="Wrap" Text="姓名" VerticalAlignment="Top" RenderTransformOrigin="-0.364,0.133"/>
+        <TextBlock x:Name="textTelNum1" HorizontalAlignment="Left" Margin="304,24,0,0" TextWrapping="Wrap" Text="电话" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBirthDay1" HorizontalAlignment="Left" Margin="40,74,0,0" TextWrapping="Wrap" Text="生日" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textCustomerLevel1" HorizontalAlignment="Left" Margin="304,74,0,0" TextWrapping="Wrap" Text="级别" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textAddress1" HorizontalAlignment="Left" Margin="40,122,0,0" TextWrapping="Wrap" Text="通讯地址" VerticalAlignment="Top"/>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Height="23" Margin="138,16,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textTelNum" HorizontalAlignment="Left" Height="23" Margin="375,16,0,0" TextWrapping="Wrap" Text="{Binding TelNum}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textCustomerLevel" HorizontalAlignment="Left" Height="23" Margin="375,66,0,0" TextWrapping="Wrap" Text="{Binding CustomerLevel}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textAddress" HorizontalAlignment="Left" Height="23" Margin="138,114,0,0" TextWrapping="Wrap" Text="{Binding Address}" VerticalAlignment="Top" Width="357"/>
+        <Button x:Name="btnSave" Content="保存" HorizontalAlignment="Left" Margin="187,194,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="375,194,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
+        <DatePicker Name="textBirthDay" HorizontalAlignment="Left" Margin="138,70,0,0" VerticalAlignment="Top" Height="19" Width="120" SelectedDate="{Binding BirthDay}"/>
+
+    </Grid>
+</Window>

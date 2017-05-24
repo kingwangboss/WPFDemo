@@ -17,16 +17,16 @@ namespace ADOsanceng.DAL
         private static Customer ToCustomer(DataRow row)
         {
             Customer customer = new Customer();
-            customer.Id = (int)row["id"];
+            customer.Id = (long)row["id"];
             customer.Name = (string)row["Name"];
-            customer.Address = (string)row["Adress"];
+            customer.Address = (string)row["Address"];
             customer.BirthDay = (DateTime?)SqlHelper.FromDbValue(row["BirthDay"]);
             customer.TelNum = (string)row["TelNum"];
-            customer.CustomerLevel = (string)row["CustomerLevel"];
+            customer.CustomerLevel = (int)row["CustomerLevel"];
             return customer;
         }
 
-        public static Customer GetById(int id)
+        public static Customer GetById(long id)
         {
             DataTable dt = SqlHelper.ExecuteDataTable("select * from Customer where id = @id", new SqlParameter("@id", id));
             if (dt.Rows.Count <= 0)
@@ -44,12 +44,12 @@ namespace ADOsanceng.DAL
             }
         }
 
-        public void DeleteById(int id)
+        public static void DeleteById(long id)
         {
             SqlHelper.ExecuteNonQuery("delete from Customer where id = @id", new SqlParameter("@id", id));
         }
 
-        public void Insert(Customer customer)
+        public static void Insert(Customer customer)
         {
             SqlHelper.ExecuteNonQuery(@"INSERT INTO [Customer]
            ([Name],[BirthDay],[Address],[TelNum],[CustomerLevel]) VALUES
@@ -61,7 +61,7 @@ namespace ADOsanceng.DAL
            new SqlParameter("@CustomerLevel", customer.CustomerLevel));
         }
 
-        public void Update(Customer customer)
+        public static void Update(Customer customer)
         {
             SqlHelper.ExecuteNonQuery(@"UPDATE [Customer]SET[Name] = 
 @Name,[BirthDay] = @BirthDay,[Address] = @Address,[TelNum] =  @TelNum,[CustomerLevel] = @CustomerLevel WHERE id=@id",
@@ -69,10 +69,11 @@ namespace ADOsanceng.DAL
            new SqlParameter("@BirthDay", SqlHelper.ToDbValue(customer.BirthDay)),
            new SqlParameter("@Address", customer.Address),
            new SqlParameter("@TelNum", customer.TelNum),
-           new SqlParameter("@CustomerLevel", customer.CustomerLevel));
+           new SqlParameter("@CustomerLevel", customer.CustomerLevel),
+           new SqlParameter("@id", customer.Id));
         }
 
-        public Customer[] GetAll()
+        public static Customer[] GetAll()
         {
             DataTable table = SqlHelper.ExecuteDataTable("select * from Customer");
             Customer[] customers = new Customer[table.Rows.Count];

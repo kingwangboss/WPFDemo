@@ -1,0 +1,28 @@
+﻿<Window x:Class="ADOsanceng.CustomerListUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADOsanceng"
+        mc:Ignorable="d"
+        Title="CustomerListUI" Height="500" Width="500"
+        WindowState="Maximized" Loaded="Window_Loaded">
+    <Grid >
+        <DockPanel>
+            <ToolBar DockPanel.Dock="Top" Height="30">
+                <Button Content="新增" Name="btnAdd" Click="btnAdd_Click"></Button>
+                <Button Content="编辑" Name="btnEdit" Margin="0,2,0,0" VerticalAlignment="Top" Height="21" Click="btnEdit_Click"/>
+                <Button Content="删除" Name="btnDelete" Margin="0,2" VerticalAlignment="Stretch" Click="btnDelete_Click"></Button>
+            </ToolBar>
+            <DataGrid Name="gridCustomers" DockPanel.Dock="Top" IsReadOnly="True" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="姓名" Width="100" Binding="{Binding Name}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="生日" Width="100" Binding="{Binding BirthDay}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="地址" Width="150" Binding="{Binding Address}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="电话" Width="100" Binding="{Binding TelNum}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="等级" Width="50" Binding="{Binding CustomerLevel}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DockPanel>
+    </Grid>
+</Window>

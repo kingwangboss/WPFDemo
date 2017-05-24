@@ -8,11 +8,11 @@ namespace ADOsanceng.Model
 {
     class Customer
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }
         public DateTime? BirthDay { get; set; }
         public string Address { get; set; }
         public string TelNum { get; set; }
-        public string CustomerLevel { get; set; }
+        public int CustomerLevel { get; set; }
     }
 }

@@ -56,8 +56,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CustomerEditUI.xaml.cs">
+      <DependentUpon>CustomerEditUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerListUI.xaml.cs">
+      <DependentUpon>CustomerListUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DAL\CustomerDAL.cs" />
     <Compile Include="DAL\SqlHelper.cs" />
+    <Page Include="CustomerEditUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomerListUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
