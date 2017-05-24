@@ -19,7 +19,7 @@
         <TextBox x:Name="textAddress" HorizontalAlignment="Left" Height="23" Margin="138,114,0,0" TextWrapping="Wrap" Text="{Binding Address}" VerticalAlignment="Top" Width="357"/>
         <Button x:Name="btnSave" Content="保存" HorizontalAlignment="Left" Margin="187,194,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
         <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="375,194,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
-        <DatePicker Name="textBirthDay" HorizontalAlignment="Left" Margin="138,70,0,0" VerticalAlignment="Top" Height="19" Width="120" SelectedDate="{Binding BirthDay}"/>
+        <DatePicker Name="textBirthDay" HorizontalAlignment="Left" Margin="138,70,0,0" VerticalAlignment="Top" Height="25" Width="120" SelectedDate="{Binding BirthDay}"/>
 
     </Grid>
 </Window>
