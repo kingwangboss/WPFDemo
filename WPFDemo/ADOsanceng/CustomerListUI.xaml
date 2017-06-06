@@ -14,7 +14,7 @@
                 <Button Content="编辑" Name="btnEdit" Margin="0,2,0,0" VerticalAlignment="Top" Height="21" Click="btnEdit_Click"/>
                 <Button Content="删除" Name="btnDelete" Margin="0,2" VerticalAlignment="Stretch" Click="btnDelete_Click"></Button>
             </ToolBar>
-            <DataGrid Name="gridCustomers" DockPanel.Dock="Top" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid Name="gridCustomers" DockPanel.Dock="Top" IsReadOnly="True" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="492">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="姓名" Width="100" Binding="{Binding Name}"></DataGridTextColumn>
                     <DataGridTextColumn Header="生日" Width="100" Binding="{Binding BirthDay}"></DataGridTextColumn>

@@ -11,6 +11,7 @@
             <Label Content="{Binding Name}" Foreground="Blue"></Label>
         </DataTemplate>
     </Window.Resources>
+    
     <Grid>
         <ContentPresenter Content="{Binding Person}" ContentTemplate="{StaticResource MyTemplate}">
             
